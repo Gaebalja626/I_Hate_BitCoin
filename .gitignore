@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Data (too large, re-fetchable)
+datasets/
+trained_models/
+
+# Results (reproducible via experiments)
+results/
+catboost_info/
+
+# FinRL (external dependency)
+FinRL/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.pem
