@@ -1,7 +1,7 @@
 # I_Hate_BitCoin
 
 BTC/USDT 1시간봉 기반 3-class 분류 트레이딩 시스템.
-GBT 모델(LightGBM, XGBoost, CatBoost)이 매 시점마다 Buy/Hold/Sell 행동을 결정하고, TTA(Test-Time Adaptation)로 월별 재학습한다.
+GBT 모델(LightGBM, XGBoost, CatBoost)이 매 시점마다 Buy/Hold/Sell 행동을 결정하고, TTA(Test-Time Adaptation라고 부르지만은...실질적으로 online learning)로 월별 재학습한다.
 
 ## Quick Start
 
